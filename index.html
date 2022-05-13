@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bondi</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="css/styel.css">
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/popper.min.js"></script>
+
+
+</head>
+
+<body class="">
+  <div class=" navHeader position-fixed">
+    <nav class=" row  navbar  navbar-expand-lg navbar-light ">
+      <div class=" col-10 d-flex justify-content-between align-items-center   ">
+        <div class="left">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <i class="notificationIcon fas fa-bell text-white "></i>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown dropdownTranslate ">
+                <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Translate
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Arabic</a></li>
+                  <li><a class="dropdown-item" href="#"> English(US)</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown dropdownMood ">
+                <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Color Mood
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a id="lightMode" class=" dropdown-item" href="#">light mode</a></li>
+                  <li><a id="darkMode" class="dropdown-item" href="#">dark mode </a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <a class="navbar-brand  text-white" target="_blank" href="Login.html">
+            <i  class="menuIcon fas fa-sign-in"></i>
+          </a>
+          <a class="navbar-brand  text-white" href="#">
+            <i id="selectMenu" class="menuIcon fa-solid fa-bars"></i>
+          </a>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="sidebar  close    position-fixed">
+    <h1 class="text-white text-uppercase logo text-center pt-4">logo</h1>
+    <div class="sidebarIcon">
+      <a dir="rtl" id="active" href="#home">
+        <div class="hideSlider   d-flex position-relative justify-content-between align-items-center">
+          <div class=" w-100  ">
+            <i class="hideIcon  fas fa-home-lg-alt"></i><span class="hideClass ">الرئيسيه</span>
+          </div>
+          <i class="hideClass float-start  fa text-white fa-chevron-down"></i>
+        </div>
+      </a>
+      <a dir="rtl" href="#home">
+        <div class="hideSlider   d-flex position-relative justify-content-between align-items-center">
+          <div class=" w-100  ">
+            <i class="hideIcon  fas fa-chart-line "></i><span class="hideClass ">اداره الاعمال</span>
+          </div>
+          <i class="hideClass float-start  fa text-white fa-chevron-down"></i>
+        </div>
+      </a>
+      <a dir="rtl" href="#home">
+        <div class="hideSlider   d-flex position-relative justify-content-between align-items-center">
+          <div class=" w-100  ">
+            <i class="hideIcon  fa fa-user-group"></i><span class="hideClass ">اداره الاعمال</span>
+          </div>
+          <i class="hideClass float-start  fa text-white fa-chevron-down"></i>
+        </div>
+      </a>
+      <a dir="rtl" href="#home">
+        <div class="hideSlider   d-flex position-relative justify-content-between align-items-center">
+          <div class=" w-100  ">
+            <i class="hideIcon  fa fa-shopping-bag"></i><span class="hideClass ">فواتير المشتريات</span>
+          </div>
+          <i class="hideClass float-start  fa text-white fa-chevron-down"></i>
+        </div>
+      </a>
+      <a dir="rtl" href="#home">
+        <div class="hideSlider   d-flex position-relative justify-content-between align-items-center">
+          <div class=" w-100  ">
+            <i class="hideIcon  fab fa-bitcoin "></i><span class="hideClass ">عروض الأسعار</span>
+          </div>
+          <i class="hideClass float-start  fa text-white fa-chevron-down"></i>
+        </div>
+      </a>
+      <a dir="rtl" href="#home">
+        <div class="hideSlider   d-flex position-relative justify-content-between align-items-center">
+          <div class=" w-100  ">
+            <i class="hideIcon  fa fa-calculator"></i><span class="hideClass ">الحسابات العامه</span>
+          </div>
+          <i class="hideClass float-start  fa text-white fa-chevron-down"></i>
+        </div>
+      </a>
+      <a dir="rtl" href="#home">
+        <div class="hideSlider   d-flex position-relative justify-content-between align-items-center">
+          <div class=" w-100  ">
+            <i class="hideIcon  fas fa-users"></i><span class="hideClass ">العملات</span>
+          </div>
+          <i class="hideClass float-start  fa text-white fa-chevron-down"></i>
+        </div>
+      </a>
+      <a dir="rtl" href="#home">
+        <div class="hideSlider   d-flex position-relative justify-content-between align-items-center">
+          <div class=" w-100  ">
+            <i class="hideIcon  fas fa-home-lg-alt"></i><span class="hideClass ">المدفوعات و المقبوضات
+            </span>
+          </div>
+          <i class="hideClass float-start  fa text-white fa-chevron-down"></i>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <section class="sec1  ">
+    <main id='main' class="shadow-lg container text-center ">
+      <button class="btn col-2 "> اضافه أسماء المنتجات</button>
+      <button class="btn col-2"> إداره المخون</button>
+      <button class="btn col-2"> المخزن </button>
+      <button class="btn col-2"> فاتوره المشتريات </button>
+      <button class="btn col-2"> فاتوره المبيعات</button>
+      <!-- <button class="last float-end bg-light text-black shadow-sm mt-2 btn col-2"> فاتوره المبيعات</button> -->
+    </main>
+  </section>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

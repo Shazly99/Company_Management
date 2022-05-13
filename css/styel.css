@@ -1,0 +1,147 @@
+:root {
+    --dark-color: #2c3341;
+    --main-color: #508D98;
+    --font-icon: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    transition: all 0.4s;
+    margin-right: 255.988px;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    z-index: 99999999999999999999;
+}
+
+.navHeader {
+    width: calc(100%);
+    top: 0;
+    z-index: 99999;
+}
+
+.right .menuIcon {
+    font-size: 25px;
+
+}
+
+.notificationIcon {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: var(--font-icon);
+}
+
+.optionTranslate {
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 20px;
+}
+
+.optionTranslate select {
+    border: 1px solid transparent;
+    color: white;
+    font-size: 13px;
+}
+
+/**************************sidebar**********************************/
+.sidebar {
+    background-color: var(--dark-color);
+    right: 0;
+    top: 0;
+    padding-top: 40px;
+    width: 276px;
+    margin-bottom: 200px;
+    height: 100%;
+
+    z-index: 999999999999;
+}
+
+.sidebarIcon {
+    margin-top: 30px;
+    padding: 0;
+    overflow: auto;
+}
+
+.sidebarIcon a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+
+.sidebarIcon a:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+
+}
+
+.iconSidebar {
+    font-size: var(--font-icon);
+    padding-left: 20px;
+
+}
+
+.hideIcon {
+    padding-left: 20px;
+}
+
+.iconS {
+    font-size: 30px;
+    text-align: center;
+
+    display: flex;
+    justify-content: end;
+}
+
+.hideClassText {
+    color: red;
+    padding-right: 40px;
+}
+
+main {
+    padding: 30px;
+    border-radius: 10px;
+    height: 600px;
+    margin: auto;
+    transition: all 1.5s;
+}
+
+.sec1 {
+    margin-top: 80px;
+    padding: 40px;
+    transition: all 2s;
+}
+
+.btn {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 15px;
+}
+
+.dropdownMood,
+.dropdownTranslate {
+    z-index: 99999999;
+}
